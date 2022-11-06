@@ -29,6 +29,10 @@ let vpk;
 let isVpkOpen = false;
 let isDialogOpen = false;
 
+async function packVPK() {
+    alert("test");
+}
+
 async function selectVPK() {
     if(isDialogOpen) return;
     isDialogOpen = true;
